@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+ 
+    background-color: #79DAE8;
+ 
+}
+
+.container{
+   
+   background: #fff;
+   max-width: 500px;
+   width: 100%;
+   /* max-height: 600px; */
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.para-one{
+   display: flex;
+   justify-content: end;
+   margin-bottom: 40px;
+   font-weight: 400;
+}
+
+#sign-up{
+    color: #79DAE8;
+}
+
+h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    
+}
+.para-two{
+    font-size: 14px;
+}
+.email, .password{
+    width: 100%;
+    margin-top: 20px;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 50px;
+    border-width: 1px;
+    margin-top: 10px;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#pass-word{
+    color: #79DAE8;
+}
+
+button{
+    width: 90%;
+    padding: 10px;
+    border-radius: 50px;
+    border-width: 1px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    background-color: #79DAE8;
+    color: #fff;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.line-break{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+hr{
+    background-color: gray;
+    width: 90px;
+    height: 2px;
+
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+
+}
+.icon > img{
+    margin-right: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+   
+}
